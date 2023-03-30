@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import Vue3ScrollMagic from "./plugins/scrollmagic.js";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.use(Vue3ScrollMagic);
+// console.log(app.config.globalProperties.$scrollmagic);
+app.mount('#app');

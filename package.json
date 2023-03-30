@@ -11,6 +11,10 @@
   "dependencies": {
     "gsap": "^3.11.5",
     "jquery": "^3.6.4",
+    "sass": "^1.60.0",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4",
+    "scrollmagic-plugins": "^1.0.8",
     "vue": "^3.2.47",
     "vue-scrollmagic": "^1.2.0"
   },
